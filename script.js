@@ -1,0 +1,1 @@
+document.querySelector('button').onclick = function() { document.body.innerHTML = '<h1>The Journey Begins...</h1><p>Hachiko is waiting at Shibuya Station. What do you do?</p><button onclick="location.reload()">Restart</button>'; document.body.style.backgroundColor = '#e1f5fe'; };
